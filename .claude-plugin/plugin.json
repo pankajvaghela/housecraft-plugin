@@ -1,0 +1,20 @@
+{
+  "name": "housecraft",
+  "version": "0.1.0",
+  "description": "Model a single-level home and explore renovation ideas in a local 3D preview.",
+  "author": {
+    "name": "Pankaj Vaghela"
+  },
+  "homepage": "https://github.com/pankajvaghela/housecraft-plugin",
+  "repository": "https://github.com/pankajvaghela/housecraft-plugin",
+  "license": "MIT",
+  "keywords": [
+    "home-modeling",
+    "renovation",
+    "3d"
+  ],
+  "displayName": "HouseCraft",
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://github.com/pankajvaghela/housecraft-plugin#readme",
+  "supportUrl": "https://github.com/pankajvaghela/housecraft-plugin/issues"
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">HouseCraft</title>
+  <desc id="desc">Model your home in 3D. A house mark and a schematic floor plan on a deep green background.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0v28" fill="none" stroke="#A6E2CD" stroke-opacity=".14"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="420" rx="32" fill="#123A37"/>
+  <path d="M630 32h528v356H630z" fill="url(#grid)"/>
+  <g transform="translate(77 93)">
+    <path d="M0 27 34 0l34 27v34H0Z" fill="#DBF5E9"/>
+    <path d="M35 61V33h17v28M12 33h10v11H12Z" fill="#277C70"/>
+  </g>
+  <text x="72" y="257" fill="#F5FBF7" font-family="system-ui, sans-serif" font-size="100" font-weight="720" letter-spacing="-5">HouseCraft</text>
+  <text x="79" y="313" fill="#BFE9D9" font-family="system-ui, sans-serif" font-size="31">Model your home in 3D</text>
+  <g transform="translate(745 97)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 0h332v226H0V0Zm177 0v83m0 54v89m0-115h155" stroke="#DBF5E9" stroke-width="8"/>
+    <path d="M177 83h53a53 53 0 0 1-53 53" stroke="#8ECEB9" stroke-width="3"/>
+    <path d="M26 30h106v43H26zM26 42h106M244 143h61v55h-61z" stroke="#8ECEB9" stroke-width="3"/>
+    <circle cx="64" cy="165" r="30" stroke="#8ECEB9" stroke-width="3"/>
+    <path d="M37 226h66M332 26v53" stroke="#F0CB85" stroke-width="8"/>
+  </g>
+</svg>

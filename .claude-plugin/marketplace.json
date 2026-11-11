@@ -1,0 +1,14 @@
+{
+  "name": "housecraft",
+  "owner": {
+    "name": "Pankaj Vaghela"
+  },
+  "plugins": [
+    {
+      "name": "housecraft",
+      "source": "./",
+      "description": "Model a single-level home and explore renovation ideas in a local 3D preview."
+    }
+  ],
+  "description": "HouseCraft skills for local home modeling and renovation previews."
+}

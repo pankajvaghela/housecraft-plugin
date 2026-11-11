@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">HouseCraft house mark</title>
+  <rect width="128" height="128" rx="28" fill="#123A37"/>
+  <path d="M23 59 64 25l41 34v43H23Z" fill="#DBF5E9"/>
+  <path d="M63 102V67h22v35M38 66h13v14H38Z" fill="#277C70"/>
+  <path d="m28 55 36-30 41 34" fill="none" stroke="#A6E2CD" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

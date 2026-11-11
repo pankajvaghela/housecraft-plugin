@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "housecraft",
+  "version": "0.1.0",
+  "description": "Model a single-level home and explore renovation ideas in a local 3D preview.",
+  "author": {
+    "name": "Pankaj Vaghela"
+  },
+  "homepage": "https://github.com/pankajvaghela/housecraft-plugin",
+  "repository": "https://github.com/pankajvaghela/housecraft-plugin",
+  "license": "MIT",
+  "keywords": [
+    "home-modeling",
+    "renovation",
+    "3d"
+  ],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "HouseCraft",
+        "shortDescription": "Model your home in 3D",
+        "longDescription": "Give your coding agent floor plans, photos, or measurements to build an editable model of one single-level home. Label estimates, preserve the existing layout, and compare renovation variants in a localhost browser preview. Furniture appears as dimensioned boxes. HouseCraft needs desktop execution with Git, Node.js 22 or later, npm, and a WebGL browser. It uses the separate open-source HouseCraft Viewer and needs no HouseCraft account. Renovation concepts do not assess structural feasibility.",
+        "developerName": "Pankaj Vaghela",
+        "category": "Productivity",
+        "capabilities": [
+          "Create editable home models",
+          "Compare renovation variants locally"
+        ],
+        "websiteURL": "https://github.com/pankajvaghela/housecraft-plugin",
+        "supportURL": "https://github.com/pankajvaghela/housecraft-plugin/issues",
+        "defaultPrompt": [
+          "Set up HouseCraft and check whether my computer can run the local preview.",
+          "Model my single-level home from these measurements. Ask for missing dimensions and label estimates.",
+          "Add a variant with the dining table by the window and keep the existing layout unchanged."
+        ],
+        "brandColor": "#277C70",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      },
+      "publication": {
+        "release_notes": "First version of the local setup and home-modeling workflows, using HouseCraft Viewer v0.1.0 for validation and 3D previews."
+      }
+    }
+  }
+}
