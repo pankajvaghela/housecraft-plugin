@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "housecraft",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Model a single-level home and explore renovation ideas in a local 3D preview.",
   "author": {
     "name": "Pankaj Vaghela"
@@ -29,6 +29,7 @@
           "Compare renovation variants locally"
         ],
         "websiteURL": "https://github.com/pankajvaghela/housecraft-plugin",
+        "privacyPolicyURL": "https://github.com/pankajvaghela/housecraft-plugin/blob/main/PRIVACY.md",
         "supportURL": "https://github.com/pankajvaghela/housecraft-plugin/issues",
         "defaultPrompt": [
           "Set up HouseCraft and check whether my computer can run the local preview.",
@@ -40,7 +41,7 @@
         "logo": "./assets/icon.svg"
       },
       "publication": {
-        "release_notes": "First version of the local setup and home-modeling workflows, using HouseCraft Viewer v0.1.0 for validation and 3D previews."
+        "release_notes": "Adds a privacy policy and documents the local setup and data handling. HouseCraft Viewer v0.1.0 powers the local preview."
       }
     }
   }

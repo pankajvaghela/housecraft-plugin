@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Added a privacy policy and linked it from both plugin manifests.
+- Documented local setup effects, model storage and agent-provider data handling.
+
 ## 0.1.0
 
 - Added the `housecraft:setup` skill to check local prerequisites and set up the separate HouseCraft Viewer at a pinned revision.
